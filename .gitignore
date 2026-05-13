@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment variables
+.env
+.env.local
+frontend/.env
+backend/.env
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+database/payroll.sqlite
+
+# Build output
+frontend/dist/
+frontend/build/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp / test files
+body.txt
+headers.txt
+response.txt
+backend/testLocal.js
+backend/testServer.js
+backend/check.js
